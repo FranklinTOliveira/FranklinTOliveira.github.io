@@ -78,8 +78,25 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer"></div>
+      <div class="container">
+        <div class="card border-0 mt-4 h-50 w-50">    
+          <h1 style="text-align: center;">Leave a Comment</h1>
+          <form name="LeaveAComment" action="/submit.php" onsubmit="return offeredComment()" method="post">
+              <p>Name: <input type="text" class="form-control" name="Name" /></p>
+              <br />
+              <p>E-mail Address: <input type="text" class="form-control" name="EMail" /></p>
+              <br /> 
+              <br />
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Comment:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <p><input type="submit" value="send" name="Submit" /><input type="reset" value="Reset" name="Reset" /></p>
+          </form>
+        </div>
+      </div>
+  </div>
+<div class="footer"></div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
