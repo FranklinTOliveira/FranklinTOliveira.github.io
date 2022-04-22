@@ -15,12 +15,12 @@
   <header class="d-flex text-center headerBlock"><h1 class="m-auto">Forward Road Web Development</h1></header>
   <div class="container">
     <div class="row">
-      <div class="ml-5 mt-4 pt-4 pb-4 mb-4 col-6 d-flex justify-content-center align-items-center"><p>We are Forward Road Web Development, a web design agency available for paid service to anyone online, ready to provide you with your best website. Send us a message and we can negotiate the terms and conditions by which we will build the website that works for you.</p></div>
-      <div class="mr-5 mt-4 mb-4 col-6 d-flex justify-content-center align-items-center"><img src="img/theroadforward.jpg" class="d-block w-100" alt="View of the Road Forward"></div>
+      <div class="col col-md-6"><p>We are Forward Road Web Development, a web design agency available for paid service to anyone online, ready to provide you with your best website. Send us a message and we can negotiate the terms and conditions by which we will build the website that works for you.</p></div>
+      <div class="col col-md-6"><img src="img/theroadforward.jpg" class="d-block w-100" alt="View of the Road Forward"></div>
     </div>
     <div class="row">
-      <div class="mr-5 mt-4 mb-4 col-6 d-flex justify-content-center align-items-center"><img src="img/franklinoliveirapicture.jpg" class="d-block w-100" alt="Picture of Franklin Oliveira"></div>
-      <div class="ml-5 mt-4 mb-4 col-6 d-flex justify-content-center align-items-center"><p>Our main web developer is Franklin Oliveira, a resident of California’s great Central Valley ready to offer the best product he can provide, drawing upon his college & workplace training. If you send us your offer, it is highly likely that he will be the one to fulfill your request!</p></div>
+      <div class="col col-md-6"><img src="img/franklinoliveirapicture.jpg" class="d-block w-100" alt="Picture of Franklin Oliveira"></div>
+      <div class="col col-md-6"><p>Our main web developer is Franklin Oliveira, a resident of California’s great Central Valley ready to offer the best product he can provide, drawing upon his college & workplace training. If you send us your offer, it is highly likely that he will be the one to fulfill your request!</p></div>
     </div>
   </div>
   <div class="container">
@@ -28,7 +28,7 @@
       <h3>These mock-ups provide samples of the quality of work of which we are capable.</h3>
     </div>  
     <div class="row">
-      <div class="col-4">
+      <div class="col col-md-4">
         <div class="border-0 card m-auto w-75">
           <img class="card-img-top" src="img/theroyalcastle.jpg" alt="Royals of Britain">
           <div class="card-body">
@@ -38,7 +38,7 @@
           </div>
         </div>  
       </div>
-      <div class="col-4">  
+      <div class="col col-md-4">  
         <div class="border-0 card m-auto w-75">
           <img class="card-img-top" src="img/rockconcert.jpg" alt="Concert on a Smartphone">
           <div class="card-body">
@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4"> 
+      <div class="col col-md-4"> 
         <div class="border-0 card m-auto w-75">
           <img class="card-img-top" src="img/parallaxscroll.jpg" alt="Demonstrating the Parallax Effect">
           <div class="card-body">
@@ -60,7 +60,7 @@
       </div>  
     </div>
     <div class="row">
-      <div class="col-4">
+      <div class="col col-md-4">
         <div class="border-0 card m-auto pt-1 w-75">
           <img class="card-img-top" src="img/carouselpicture.png" alt="A Carousel Demonstration">
           <div class="card-body">
@@ -70,7 +70,7 @@
           </div>
         </div>  
       </div>
-      <div class="col-4">  
+      <div class="col col-md-4">  
         <div class="border-0 card m-auto pt-3 w-75">
           <img class="card-img-top w-100" src="img/magic8ball_empty.png" alt="An Eight-Ball Animation">
           <div class="card-body">
@@ -80,7 +80,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">  
+      <div class="col-md-4">  
         <div class="border-0 card m-auto pt-3 w-75">
           <img class="card-img-top m-auto w-75" src="img/Work-History.png" alt="The Webmaster's Work Album">
           <div class="card-body">
@@ -95,7 +95,7 @@
   <br />
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col col-md-6">
         <div class="card m-auto border-0 w-50"> 
           <h3 style="text-align: center;">Project Rates</h3>
           <h5>Labor Charge: $34/hr.</h5>
@@ -106,34 +106,58 @@
           <p>If you need us to find a server to host your website, then we will charge the price of the hosting service plus a 10% surcharge.</p>      
         </div>
       </div>
-      <div class="col-6">  
+      <div class="col col-md-6">  
         <div class="card m-auto border-0 w-50">    
           <b style="text-align: center;">Ask For Help With Your Website</b>
-          <form name="LeaveAComment" action="/submit.php" onsubmit="return offeredComment()" method="post">
-            <p>Name: <input type="text" class="form-control" name="Name" /></p>
-            <br />
-            <p>E-mail Address: <input type="text" class="form-control" name="EMail" /></p>
-            <br />
-            <p>Phone Number: <input type="text" class="form-control" name="PhoneNumber" /></p> 
-            <br />
-            <div class="form-group">
-              <label for="ServiceRequest">Request Our Services for Your Project:</label>
-              <textarea class="form-control" name="ServiceRequest" rows="3"></textarea>
-            </div>
-            <br />
-            <div class="form-group row">
-              <div class="form-group col-6">
-                <div class="card m-auto w-50">
-                  <input type="submit" value="Send" name="Submit" />
-                </div>
-              </div>
-              <div class="form-group col-6">
-                <div class="card m-auto w-50">
-                  <input type="reset" value="Reset" name="Reset" />
-                </div>
-              </div>
-            </div>  
-          </form>
+          <table>
+            
+            <tr>
+            <td>
+            </td>
+            <td>
+            Name:
+            </td>
+            </tr>
+            
+            
+            <tr>
+            <td>
+            </td>
+            <td>
+            <input type="text" id="name_entered"/>
+            </td>
+            </tr>
+            
+            <tr>
+            <td>
+            </td>
+            <td>
+            Comment:
+            </td>
+            </tr>
+            
+            
+            <tr>
+            <td>
+            </td>
+            <td>
+            <textarea cols="35" rows="6" id="comment_entered">
+            </textarea>
+            </td>
+            </tr>
+            
+            <tr>
+            <td>
+            </td>
+            <td>
+            <input type="submit" value="Comment" onclick="submitcomment();"/>
+            </td>
+            </tr>
+            
+            </table>
+            
+            <br><br>
+            <div id="showcomments"></div>
         </div>
       </div>
     </div>  
