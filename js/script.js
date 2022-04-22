@@ -28,7 +28,7 @@ function submitcomment() {
   }
   
   
-  let webpage= location.href;
+  let webpage= "/index.html";
   
   position= webpage.lastIndexOf("/"); 
   
