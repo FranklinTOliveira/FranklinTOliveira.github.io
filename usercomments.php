@@ -6,10 +6,10 @@ $table= $_POST['webpage'];
 
 $date= date("m-d-Y");
 
-$user = "user"; 
-$password = "password"; 
-$host = "host"; 
-$dbase = "database"; 
+$user = "root"; 
+$password = ""; 
+$host = "localhost"; 
+$dbase = "model"; 
 
 
 
