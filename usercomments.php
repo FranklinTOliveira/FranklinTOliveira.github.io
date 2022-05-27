@@ -12,7 +12,7 @@ $con = new mysqli($host, $user, $password, $dbname, $port, $socket)
 
 //$con->close();
 
-$query = "SELECT * FROM sentcomments.orders";
+$query = "SELECT * FROM sentcomments";
 
 
 if ($stmt = $con->prepare($query)) {

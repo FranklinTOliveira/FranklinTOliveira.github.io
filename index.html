@@ -109,55 +109,17 @@
       <div class="col col-md-6">  
         <div class="card m-auto border-0 w-50">    
           <b style="text-align: center;">Ask For Help With Your Website</b>
-          <table>
-            
-            <tr>
-            <td>
-            </td>
-            <td>
-            Name:
-            </td>
-            </tr>
-            
-            
-            <tr>
-            <td>
-            </td>
-            <td>
-            <input type="text" id="name_entered"/>
-            </td>
-            </tr>
-            
-            <tr>
-            <td>
-            </td>
-            <td>
-            Comment:
-            </td>
-            </tr>
-            
-            
-            <tr>
-            <td>
-            </td>
-            <td>
-            <textarea cols="35" rows="6" id="comment_entered">
-            </textarea>
-            </td>
-            </tr>
-            
-            <tr>
-            <td>
-            </td>
-            <td>
-            <input type="submit" value="Comment" onclick="submitcomment();"/>
-            </td>
-            </tr>
-            
-            </table>
-            
-            <br><br>
-            <div id="showcomments"></div>
+          <form action="/usercomments.php" method="post">
+            <label for="customer_name">Name:</label>
+            <input type="text" id="customer_name" name="customer_name"><br><br>
+            <label for="customer_eaddress">Email:</label>
+            <input type="text" id="customer_eaddress" name="customer_eaddress"><br><br>
+            <label for="customer_pnumber">Phone Number:</label>
+            <input type="text" id="customer_pnumber" name="customer_pnumber"><br><br>
+            <label for="customer_order">What Do You Need?:</label>
+            <input type="text" id="customer_order" name="customer_order"><br><br>
+            <input type="submit" value="Submit">
+          </form> 
         </div>
       </div>
     </div>  
