@@ -28,7 +28,7 @@ function submitcomment() {
   }
   
   
-  let webpage= "/index.html";
+  let webpage= "http://www.forwardroadwebdevelopment.com/";
   
   position= webpage.lastIndexOf("/"); 
   
